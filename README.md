@@ -15,7 +15,7 @@ Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow for writin
 * Allways honnor power of two texture with padding
 * Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65535 vertecies
 * Use of relative positions from first frame
-* Split up X & Y vertex normal floats into byte values to be storend in RGBA channels to maintain 16-bit floating point precision
+* Split up X & Y vertex normal floats into byte values to be storend in RGBA channels, this maintains 16-bit floatingpoint precision of normals
 
 
 ## Dependencies:
