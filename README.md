@@ -44,4 +44,4 @@ Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow for writin
 ## How-To
 * Make sure script is loaded in Maya memory by placing script in the startup script folder before starting Maya
 * Run function make_dat_texture()
-* Done, texture gets saved with scene name in folder D:\Textures\Vats\ if not changed in line 510
+* Done, texture gets saved with scene name in folder D:\Textures\Vats\ if not changed at line 510
