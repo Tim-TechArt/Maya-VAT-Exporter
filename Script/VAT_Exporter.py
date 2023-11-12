@@ -8,6 +8,11 @@ import time
 import math
 
 #----------------------------------------------------------------
+
+""" Switches """
+""" Mode Selected Meshes or All Meshes in scene """
+Selected_Meshes = True
+
 """ Global Wars """
 X = 0
 Y = 1
@@ -407,9 +412,11 @@ def make_dat_texture():
     
     print("Collecting information...")
     
-    """ Changes this to function get_list_of_all_meshes() if you want to use all meshes in the scene """
-    mesh_list = get_list_of_selected_meshes()
-
+    if (Selected_Meshes):
+        mesh_list = get_list_of_selected_meshes()
+    else:
+        mesh_list = get_list_of_all_meshes()
+    
     keyframes = get_list_of_keyframes(mesh_list) 
     
     nr_of_vtx = len(get_list_of_vertex_positions(mesh_list))
