@@ -11,7 +11,7 @@ Developed for Maya 2023 using PyMEL to interact with Maya, Pillow for writing da
     - R Channel: Number of Frames
     - G Channel: FPS
   - Second & Third Header Pixel
-    - Calculated min and max position of animation to always have optimized scale value for vertex positions
+    - Calculated min and max position of animation to ensure optimized scale value for vertex positions
 * Allways honnor power of two texture with padding
 * Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65535 vertecies
 * Use of relative positions from first frame
