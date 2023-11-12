@@ -43,5 +43,6 @@ Developed for Maya 2023 using PyMEL to interact with Maya, Pillow for writing da
   
 ## How-To
 * Make sure script is loaded in Maya memory by placing script in the startup script folder before starting Maya
+* Choose if selected mesh or all meshes should be written with parameter "Selected_Meshes" on row 14, default value Selected_Meshes = True
 * Run function make_dat_texture()
 * Done, texture gets saved with scene name in folder D:\Textures\Vats\ if not changed at line 510
