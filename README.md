@@ -5,10 +5,17 @@ Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow to write d
 
 
 ## Key Features 
-* Allways honnor power of two texture
+* 8bit RGBA DDS format
+* Utilizes header information in DDS
+  - First Header Pixel
+    - R Channel: Number of Frames
+    - G Channel: FPS
+  - Second & Third Header Pixel
+    - Calculated min and max position of animation to always have optimized scale value for vertex positions
+* Allways honnor power of two texture with padding
 * Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65 025 vertecies
-* Calculates min and max position of animation to always have optimized scale value for vertex positions
-
+* Uses relative positions from first frame
+* 
 
 ## Dependencies:
 
