@@ -3,6 +3,8 @@ Exports Vertex Animation Texture from Maya
 
 Developed for Maya 2023 using PyMEL for interacting with Maya and Pillow to write data to DDS
 
+## Short Breakdown
+
 ## Dependencies:
 
   ### PyMEL:
@@ -23,3 +25,4 @@ Developed for Maya 2023 using PyMEL for interacting with Maya and Pillow to writ
     mayapy -m pip install Pillow
   See Pillow Installation documentation: https://pillow.readthedocs.io/en/latest/installation.html
   
+## How-To
