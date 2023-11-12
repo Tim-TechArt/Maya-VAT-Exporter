@@ -13,7 +13,7 @@ Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow to write d
   - Second & Third Header Pixel
     - Calculated min and max position of animation to always have optimized scale value for vertex positions
 * Allways honnor power of two texture with padding
-* Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65 025 vertecies
+* Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65535 vertecies
 * Uses relative positions from first frame
 * 
 
