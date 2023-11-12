@@ -43,6 +43,6 @@ Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow for writin
 
   
 ## How-To
-* Make sure the script is loaded in Maya memory either byt placng the script in the startup script folder or by selecting the whole script in the script editor and pressing shift+enter
+* Make sure the script is loaded in Maya memory either byt placing the script in the startup script folder or by selecting the whole script in the script editor and pressing shift+enter
 * Run function make_dat_texture()
 * Done, texture gets saved with scene name in folder *D:\Textures\Vats\* if not changed in line 510
