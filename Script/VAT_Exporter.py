@@ -411,7 +411,8 @@ def make_dat_texture():
     start_time = time.time() 
     
     print("Collecting information...")
-    
+
+    mesh_list = []
     if (Selected_Meshes):
         mesh_list = get_list_of_selected_meshes()
     else:
