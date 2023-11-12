@@ -1,11 +1,17 @@
 # Maya-VAT-Exporter
 Exports Vertex Animation Texture from Maya
 
-Developed for Maya 2023 using PyMEL for interacting with Maya and Pillow to write data to DDS
+Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow to write data to DDS
 
-## Short Breakdown
+
+## Key Features 
+* Allways honnor power of two texture
+* Split up Vertex index and saves it in vertex color channel R & G to manage a total of 65 025 vertecies
+* Calculates min and max position of animation to always have optimized scale value for vertex positions
+
 
 ## Dependencies:
+
 
   ### PyMEL:
 
@@ -19,10 +25,13 @@ Developed for Maya 2023 using PyMEL for interacting with Maya and Pillow to writ
   See PyMEL Installing and importing documentation: https://help.autodesk.com/view/MAYAUL/2024/ENU/?guid=GUID-2AA5EFCE-53B1-46A0-8E43-4CD0B2C72FB4
 
 
+
   ### Pillow
 
     cd C:\Program Files\Autodesk\Maya2023\bin
     mayapy -m pip install Pillow
   See Pillow Installation documentation: https://pillow.readthedocs.io/en/latest/installation.html
+
+
   
 ## How-To
