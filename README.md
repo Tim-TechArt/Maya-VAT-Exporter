@@ -1,7 +1,7 @@
 # Maya-VAT-Exporter
 *Exports Vertex Animation Texture from Maya*
 
-Developed for Maya 2023 using PyMEL for interacting with Maya, Pillow for writing data to DDS
+Developed for Maya 2023 using PyMEL to interact with Maya, Pillow for writing data to DDS
 
 
 ## Key Features 
