@@ -56,3 +56,9 @@ FBX and Texture to be found in Example folder to investigate :)
 * Choose if selected mesh or all meshes should be written with parameter "Selected_Meshes" on row 14, default value Selected_Meshes = True
 * Run function make_dat_texture()
 * Done, texture gets saved with scene name in folder D:\Textures\Vats\ if not changed at line 510
+
+
+## Technical showcase
+Example texture used in game <br>
+First row is header <br>
+<img loading="lazy" src="./Example/With explinations.png" alt="image_name png" width=60%/>
