@@ -2,7 +2,17 @@
 *Exports Vertex Animation Texture from Maya*
 
 Developed for Maya 2023 using PyMEL to interact with Maya, Pillow for writing data to DDS
+<br>
+<br>
+Example texture used in game <br>
+<img loading="lazy" src="./Example/fishAI_flopping_anim_noAlpha.png" alt="image_name png" width=60%/>
 
+In game flopping AI fish <br>
+<img loading="lazy" src="./Example/fishAI_flopping_animShort.gif" alt="image_name gif" width=60%/>
+<br>
+
+FBX and Texture to be found in Example folder to investigate :)
+<br>
 
 ## Key Features 
 * 8bit RGBA DDS format
