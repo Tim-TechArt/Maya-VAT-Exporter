@@ -1,3 +1,5 @@
+#Copyright Tim Lindberg
+
 uint BytesToUint(float2 bytes)
 {
     uint MSB = uint(bytes.x * 255);
