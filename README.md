@@ -7,7 +7,7 @@ Developed for Maya 2023 using PyMEL to interact with Maya, Pillow for writing da
 Example texture used in game <br>
 <img loading="lazy" src="./Example/fishAI_flopping_anim_noAlpha.png" alt="image_name png" width=60%/>
 
-In game flopping AI fish <br>
+In game flopping AI fish utilizing VAT texture for animation <br>
 <img loading="lazy" src="./Example/fishAI_flopping_animShort.gif" alt="image_name gif" width=60%/>
 <br>
 
